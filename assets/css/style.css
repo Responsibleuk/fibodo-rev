@@ -241,6 +241,20 @@ textarea {
   overflow-y: auto;
 }
 
+.button-left
+ {
+  font-family: "DM Sans", sans-serif;
+  float: left;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
 img {
   height: auto;
   max-width: 100%;
@@ -748,8 +762,8 @@ h5 {
 }
 
 h6 {
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 22px;
+  line-height: 30px;
 }
 
 /* Extra classes
@@ -2822,6 +2836,8 @@ header.absolute {
   color: rgb(40, 40, 40) !important;
   text-align: left;
 }
+
+
 
 
 
