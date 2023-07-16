@@ -889,6 +889,13 @@ label.error {
   padding-bottom: 50px;
 }
 
+.narrow-sm {
+
+  padding-right: 100px;
+  padding-left: 25px;
+  padding-bottom: 50px;
+}
+
 .mb63 {
   margin-bottom: 63px;
 }
@@ -919,6 +926,10 @@ label.error {
 
 .mb22 {
   margin-bottom: 22px;
+}
+
+.mt50 {
+  margin-top: 100px;
 }
 
 .mt100 {
@@ -2809,6 +2820,14 @@ header.absolute {
   background-color: #343a46;
 }
 
+.background-orange {
+  background-color: #ee7a3f;
+}
+
+.background-yellow {
+  background-color: #fbc70c;
+}
+
 .title-white {
   font-size: 40px;
   line-height: 40px;
@@ -2826,6 +2845,14 @@ header.absolute {
 .title-dark {
   font-size: 40px;
   line-height: 40px;
+  color: rgb(40, 40, 40) !important;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.sub-title-dark {
+  font-size: 26px;
+  line-height: 28px;
   color: rgb(40, 40, 40) !important;
   text-align: left;
   padding-bottom: 10px;
