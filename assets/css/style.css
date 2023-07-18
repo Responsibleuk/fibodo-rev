@@ -2796,10 +2796,6 @@ header.absolute {
   right: -100px;
 }
 
-.resizable-image:hover {
-  transform: scale(1.2);
-}
-
 .resizable-image-right {
   width: 100%;
   height: 100%;
@@ -2810,10 +2806,6 @@ header.absolute {
   
 }
 
-.resizable-image-right:hover {
-  transform: scale(1.2);
-}
-
 .resizable-image-left {
   width: 100%;
   height: 100%;
@@ -2821,10 +2813,6 @@ header.absolute {
   position: absolute;
   top: 150px;
   
-}
-
-.resizable-image-left:hover {
-  transform: scale(1.2);
 }
 
 .min-height-box {
