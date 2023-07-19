@@ -344,6 +344,23 @@
   .sidebar.sidebar-explore.is-fixed {
     width: 25%;
   }
+  .narrow {
+    padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 0px;
+  }
+
+  .narrow-sm {
+    padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 0px;
+  }
+
+  .narrow-small {
+    padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 0px;
+  }
 }
 @media only screen and (max-width: 830px) {
   .tf-slider-item .image {

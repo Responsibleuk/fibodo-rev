@@ -689,6 +689,13 @@ input[type=submit]:hover {
   color: #fff;
 }
 
+
+
+img:hover {
+transform: scale(1.1);
+transition: transform .2s;
+}
+
 /* Placeholder color */
 ::-webkit-input-placeholder {
   color: var(--primary-color2);
@@ -2897,6 +2904,14 @@ header.absolute {
   padding-bottom: 10px;
 }
 
+.content-box-dark {
+  font-size: 26px;
+  line-height: 28px;
+  color: var(--primary-color23);
+  text-align: left;
+  padding-bottom: 10px;
+}
+
 .sub-title-dark {
   font-size: 26px;
   line-height: 28px;
@@ -2913,11 +2928,6 @@ header.absolute {
   padding-bottom: 10px;
 }
 
-.content-box-dark {
-  font-size: 20px;
-  color: rgb(40, 40, 40) !important;
-  text-align: left;
-}
 
 
 
