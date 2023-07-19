@@ -1150,6 +1150,7 @@ a:focus {
   --product-color17: #1F1F2C;
   --product-color18: rgba(207, 219, 213, 0.15);
   --product-color19: rgba(255, 255, 255, 0.1);
+  
 }
 
 #page {
@@ -2891,7 +2892,7 @@ header.absolute {
 .title-dark {
   font-size: 40px;
   line-height: 40px;
-  color: rgb(40, 40, 40) !important;
+  color: var(--primary-color23);
   text-align: left;
   padding-bottom: 10px;
 }
@@ -2899,7 +2900,7 @@ header.absolute {
 .sub-title-dark {
   font-size: 26px;
   line-height: 28px;
-  color: rgb(40, 40, 40) !important;
+  color: var(--primary-color23);
   text-align: left;
   padding-bottom: 10px;
 }
