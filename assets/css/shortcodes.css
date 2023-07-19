@@ -12,8 +12,8 @@
   background-color: var(--primary-color6);
   box-sizing: border-box;
   font-weight: 700;
-  padding: 18px 36px;
-  border-radius: 99px;
+  padding: 8px 36px;
+  border-radius: 50px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;

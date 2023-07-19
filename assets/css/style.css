@@ -243,16 +243,9 @@ textarea {
 
 .button-left
  {
-  font-family: "DM Sans", sans-serif;
-  float: left;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  overflow-x: hidden;
-  overflow-y: auto;
+  position: absolute;
+      bottom: 25px;
+      left: 25px;
 }
 
 img {
@@ -884,7 +877,7 @@ label.error {
 
 .narrow {
 
-  padding-right: 250px;
+  padding-right: 300px;
   padding-left: 25px;
   padding-bottom: 50px;
 }
@@ -2820,7 +2813,7 @@ header.absolute {
   height: 100%;
   object-fit: contain;
   position: absolute;
-  top: 50px;
+  top: 0px;
  right: -350px;
   
 }
@@ -2854,6 +2847,19 @@ header.absolute {
 }
 
 .background-yellow {
+  background-color: #fbc70c;
+}
+
+.background-bronze {
+  background-color: #ee7a3f;
+}
+
+
+.background-silver {
+  background-color:  #C0C0C0;
+}
+
+.background-gold {
   background-color: #fbc70c;
 }
 
