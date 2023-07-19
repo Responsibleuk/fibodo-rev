@@ -889,6 +889,13 @@ label.error {
   padding-bottom: 50px;
 }
 
+.narrow-small {
+
+  padding-right: 400px;
+  padding-left: 25px;
+  padding-bottom: 50px;
+}
+
 .mb63 {
   margin-bottom: 63px;
 }
@@ -2824,6 +2831,10 @@ header.absolute {
 
 .max-height-box {
   min-height: 500px;
+}
+
+.max-height-plans {
+  min-height: 350px;
 }
 
 .padding-top {
