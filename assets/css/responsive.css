@@ -520,6 +520,9 @@
   .content-box-white {
     font-size: 14px;
   }
+  .mobile-remove {
+    display: none;
+  }
 }
 @media only screen and (max-width: 600px) {
   .add-nft-inner .set-item fieldset,
