@@ -1286,12 +1286,17 @@ header.absolute {
   transform: translateY(-50%);
 }
 
+/* #main-nav h6 {
+  float: left;
+  padding: 31px 30px 31px 13px;
+} */
+
 /* Sub Menu */
 #main-nav .sub-menu {
   position: absolute;
   top: 100%;
   left: 0;
-  width: 250px;
+  width: 800px;
   background-color: var(--primary-color6);
   border: 1px solid var(--primary-color15);
   border-radius: 8px;
@@ -2939,4 +2944,54 @@ header.absolute {
   .desktop-only {
     display: none;
   }
+}
+
+
+
+
+/* bespoke */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 300px;
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the columns */
+.column {
+  float: left;
+  width: 25%;
+  padding: 100px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the links inside the dropdown menu */
+.dropdown-content a {
+  position: relative;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  display: block;
+  color: var(--primary-color5);
+  padding-right: 15.5px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
